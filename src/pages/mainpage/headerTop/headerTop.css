@@ -1,0 +1,37 @@
+.header-top {
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-top .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  margin: auto;
+}
+.header-top .content .wellcome p {
+  font-size: 13px;
+  color: #fff;
+}
+.header-top .content .socials {
+  display: flex;
+  width: 8%;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+.header-top .content .socials li {
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.header-top .content .socials li:hover {
+  color: rgb(207, 0, 0);
+}

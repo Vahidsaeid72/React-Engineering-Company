@@ -1,0 +1,49 @@
+.Navbar {
+  background-color: rgb(20, 20, 20);
+}
+.Navbar .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 15px 0;
+}
+.Navbar .content .nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.Navbar .content .nav-menu li a {
+  color: aliceblue;
+  font-size: 17px;
+  font-weight: bold;
+}
+.Navbar .content .nav-menu li {
+  position: relative;
+  padding: 10px 0;
+}
+.Navbar .content .nav-menu li::before {
+  content: "";
+  width: 0%;
+  height: 4px;
+  background-color: #faa000;
+  position: absolute;
+  bottom: 0;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+}
+.Navbar .content .nav-menu li:hover::before {
+  width: 100%;
+}
+.Navbar .content .logo-brand {
+  color: aliceblue;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

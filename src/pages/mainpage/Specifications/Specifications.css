@@ -1,0 +1,30 @@
+.Specifications {
+  background-color: rgb(20, 20, 20);
+  border-top: 2px solid black;
+}
+.content {
+  padding: 10px 0;
+  display: flex;
+}
+.Specifications .content .items-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s e;
+  -moz-transition: all 0.4s e;
+  -ms-transition: all 0.4s e;
+  -o-transition: all 0.4s e;
+}
+.Specifications .content .items-header:hover {
+  background-color: rgb(75, 73, 73);
+}
+.Specifications .content .items-header p {
+  font-size: 13px;
+}
+.Specifications .content .items-header .MyIcons {
+  font-size: 40px;
+}

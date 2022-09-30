@@ -1,10 +1,17 @@
 import "./index.css";
+import Header from "./pages/mainpage/header/Header";
+import HeaderTop from "./pages/mainpage/headerTop/headerTop";
+import Navbar from "./pages/mainpage/navbar/Navbar";
+import Specifications from "./pages/mainpage/Specifications/Specifications";
 
 const App = () => {
   return (
-    <div className="container">
-      <h2>تست</h2>
-    </div>
+    <>
+      <HeaderTop />
+      <Specifications />
+      <Header />
+      <Navbar />
+    </>
   );
 };
 
