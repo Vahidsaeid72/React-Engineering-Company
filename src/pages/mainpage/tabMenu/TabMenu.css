@@ -1,0 +1,115 @@
+.TabMenu {
+  background-image: url("./../../../images/coverservice.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 85vh;
+  margin-top: 40px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.486);
+  width: 100%;
+  height: 100%;
+}
+.TabMenu .container .TabMenu-title {
+  width: 90%;
+  color: #fff;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 18px;
+  border-right: 7px solid #faa000;
+  padding-right: 10px;
+}
+.active {
+  background-color: #aa3000 !important;
+}
+.TabMenu .content {
+  background-color: rgb(229, 241, 252);
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.TabMenu .content .content-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.TabMenu .content .content-title li {
+  background-color: #faa000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19.8%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 20px 0;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.TabMenu .content .content-title li:hover {
+  background-color: #e09004;
+}
+
+.TabMenu .content .content-body {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.TabMenu .content .content-body .content-body-pic img {
+  width: 70%;
+  height: 35vh;
+}
+.content-body-title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.TabMenu .content .content-more-info {
+  background-color: #faa000;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.TabMenu .content .content-more-info p {
+  margin: 10px 0;
+  cursor: pointer;
+}
+.TabMenu .content .content-more-info:hover {
+  background-color: #e09004;
+}
+.content-title-icon {
+  font-size: 30px;
+  position: absolute;
+  left: 30px;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
+}
