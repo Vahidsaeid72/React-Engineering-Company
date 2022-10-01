@@ -1,6 +1,7 @@
 import "./index.css";
 import AboutUs from "./pages/mainpage/aboutUs/aboutUs";
 import BaseStory from "./pages/mainpage/baseStory/baseStory";
+import BeutiText from "./pages/mainpage/beutiText/beutiText";
 import Header from "./pages/mainpage/header/Header";
 import HeaderTop from "./pages/mainpage/headerTop/headerTop";
 import Navbar from "./pages/mainpage/navbar/Navbar";
@@ -16,7 +17,8 @@ const App = () => {
       <Navbar />
       <BaseStory />
       <TabMenu />
-      <AboutUs/>
+      <AboutUs />
+      <BeutiText />
     </>
   );
 };
