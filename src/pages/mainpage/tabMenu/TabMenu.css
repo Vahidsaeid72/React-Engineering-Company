@@ -26,7 +26,8 @@
   padding-right: 10px;
 }
 .active {
-  background-color: #aa3000 !important;
+  background-color: rgb(229, 241, 252) !important;
+  color: black !important;
 }
 .TabMenu .content {
   background-color: rgb(229, 241, 252);

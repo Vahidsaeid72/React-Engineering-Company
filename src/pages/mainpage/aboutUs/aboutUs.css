@@ -1,0 +1,152 @@
+/* AboutUs
+container
+AboutUs-content
+description
+description-title
+description-text
+description-btn
+myImages */
+.AboutUs {
+  width: 100%;
+  height: 50vh;
+}
+
+.AboutUs-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.AboutUs-content .description {
+  width: 35%;
+}
+.AboutUs-content .description .description-title {
+  border-right: 5px solid #faa000;
+  padding-right: 15px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.AboutUs-content .description .description-text {
+  width: 90%;
+}
+.AboutUs-content .description .description-text p {
+  text-align: justify;
+  color: rgb(36, 36, 36);
+}
+.AboutUs-content .description .description-btn {
+  width: 100%;
+}
+.AboutUs-content .description .description-btn button {
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 4px solid #faa000;
+  background-color: transparent;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.AboutUs-content .description .description-btn button::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-color: #faa000;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+  border-radius: 0 0 50% 50%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.7s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+.AboutUs-content .description .description-btn button:hover::before {
+  height: 100px;
+}
+.AboutUs-content .myImages {
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.AboutUs-content .myImages .about-team-item {
+  width: 32%;
+  height: 350px;
+  position: relative;
+}
+.AboutUs-content .myImages .about-team-item img {
+  width: 100%;
+  height: 100%;
+}
+.AboutUs-content .myImages .about-team-item .about-slide {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #fa9e00ce;
+  height: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.AboutUs-content .myImages .about-team-item:hover .about-slide {
+  height: 100%;
+}
+.AboutUs-content .myImages .about-team-item .about-slide ul {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 100px;
+}
+.AboutUs-content .myImages .about-team-item .about-slide ul li {
+  padding: 8px;
+}
+.AboutUs-content .myImages .about-team-item .about-slide h4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 60px;
+  font-size: 20px;
+}
+.AboutUs-content .myImages .about-team-item .about-slide h6 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  bottom: 30px;
+  font-size: 15px;
+}
+.AboutUs-content .myImages .about-team-item .about-slide a {
+  color: #fff;
+  font-size: 25px;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.AboutUs-content .myImages .about-team-item .about-slide a:hover {
+  color: red;
+}

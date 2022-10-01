@@ -1,4 +1,5 @@
 import "./index.css";
+import AboutUs from "./pages/mainpage/aboutUs/aboutUs";
 import BaseStory from "./pages/mainpage/baseStory/baseStory";
 import Header from "./pages/mainpage/header/Header";
 import HeaderTop from "./pages/mainpage/headerTop/headerTop";
@@ -15,6 +16,7 @@ const App = () => {
       <Navbar />
       <BaseStory />
       <TabMenu />
+      <AboutUs/>
     </>
   );
 };
