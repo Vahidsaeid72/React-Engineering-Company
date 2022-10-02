@@ -1,0 +1,142 @@
+.article {
+  background-image: url("./../../../images/article.png");
+  background-size: cover;
+}
+.article-overlay {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.article-header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.article-header-content .header-content-title {
+  border-right: 6px solid #faa000;
+  padding-right: 30px;
+  color: #fff;
+  margin: 30px 0;
+}
+.article-header-content .header-content-btn button {
+  font-size: 15px;
+  font-weight: bold;
+  width: 400px;
+  padding: 10px;
+  margin-top: 5px;
+  border: 4px solid #faa000;
+  background-color: transparent;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  z-index: 10;
+  color: white;
+}
+.article-header-content .header-content-btn button::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  background-color: #faa000;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 0;
+  border-radius: 0 0 50% 50%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.7s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+.article-header-content .header-content-btn button:hover::before {
+  height: 100px;
+}
+.article-body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.article-body-content .my-article {
+  width: 32%;
+  margin: 40px 0;
+  padding: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.article-body-content .my-article:hover {
+  background-color: #0000002d;
+}
+.article-body-content .my-article .article-img {
+  position: relative;
+}
+.article-body-content .my-article .article-img img {
+  width: 100%;
+  height: 400px;
+}
+.article-body-content .my-article .article-img::before {
+  content: "";
+  background-color: #faa000;
+  width: 5px;
+  height: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+.article-body-content .my-article .article-img:hover::before {
+  width: 8px;
+  height: 200px;
+}
+.article-body-content .my-article .article-img::after {
+  content: "";
+  background-color: #faa000;
+  width: 100px;
+  height: 5px;
+  position: absolute;
+  right: 0;
+  bottom: 5px;
+  transition: all 0.4s ease-in;
+  -webkit-transition: all 0.4s ease-in;
+  -moz-transition: all 0.4s ease-in;
+  -ms-transition: all 0.4s ease-in;
+  -o-transition: all 0.4s ease-in;
+}
+.article-body-content .my-article .article-img:hover::after {
+  width: 200px;
+  height: 8px;
+}
+.my-article .date-and-comment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  color: #faa000;
+  font-weight: 600;
+  padding: 3px;
+}
+
+.my-article .atricle-title {
+  color: #faa000;
+  font-size: 13px;
+}
+.my-article .atricle-discription {
+  color: #fff;
+  margin: 10px 0;
+}

@@ -1,5 +1,6 @@
 import "./index.css";
 import AboutUs from "./pages/mainpage/aboutUs/aboutUs";
+import Article from "./pages/mainpage/article/article";
 import BaseStory from "./pages/mainpage/baseStory/baseStory";
 import BeutiText from "./pages/mainpage/beutiText/beutiText";
 import Header from "./pages/mainpage/header/Header";
@@ -23,6 +24,7 @@ const App = () => {
       <BeutiText />
       <Project />
       <MySlider />
+      <Article />
     </>
   );
 };
