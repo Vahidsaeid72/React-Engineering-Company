@@ -1,0 +1,28 @@
+.project-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 50px auto;
+}
+.project-slider .content-slid {
+  display: flex;
+  align-items: space-between;
+  flex-direction: column;
+  width: 95%;
+}
+.project-slider .content-slid img {
+  width: 100%;
+  height: 300px;
+}
+.project-slider .content-slid h2 {
+  width: 100%;
+  text-align: right;
+}
+.project-slider .content-slid p {
+  width: 100%;
+
+  font-size: 12px;
+  color: rgb(145, 145, 145);
+  text-align: right;
+}
