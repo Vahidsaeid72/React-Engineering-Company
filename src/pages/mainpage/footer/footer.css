@@ -1,0 +1,127 @@
+.footer {
+  background-image: url("./../../../images/footer.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.overlay-footer {
+  background: rgba(0, 0, 0, 0.781);
+}
+.footer-top-title h3 {
+  color: #faa000;
+  padding: 50px 0 20px 0;
+}
+.footer-content-top {
+  border-bottom: 2px solid #faa000;
+}
+.footer-top-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.footer-top-description h5 {
+  color: #fff;
+  width: 65%;
+}
+.footer-top-description .input {
+  width: 35%;
+}
+.footer-top-description .input input {
+  width: 70%;
+  padding: 10px;
+  border: none;
+  box-sizing: border-box;
+  border-radius: 6px;
+  outline: none;
+}
+.footer-top-description .input button {
+  width: 20%;
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  background-color: #faa000;
+  color: #fff;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+}
+.footer-top-description .input button:hover {
+  background-color: #fa7900;
+}
+.social-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.social-footer span {
+  margin: 10px;
+  font-size: 40px;
+  color: #faa000;
+  transition: all 0.4s;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -ms-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  cursor: pointer;
+}
+.social-footer span:hover {
+  color: #fa5c00;
+}
+.footer-content-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-content-body h3 {
+  color: #faa000;
+  padding: 50px 0 20px 0;
+  text-align: right;
+  cursor: pointer;
+}
+.hot-content,
+.quick-access,
+.Examples-works {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  padding-bottom: 20px;
+}
+.myItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  border-bottom: 2px solid #faa000;
+}
+.myItems .myItems-image img {
+  width: 70px;
+  height: 70px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+.myItems h4 {
+  color: #faa000;
+  cursor: pointer;
+}
+.myItems h5 {
+  color: #fff;
+  cursor: pointer;
+}
+.copy-write {
+  background-color: rgb(17, 17, 17);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
