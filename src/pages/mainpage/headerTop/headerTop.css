@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  width: 100%;
   margin: auto;
 }
 .header-top .content .wellcome p {
@@ -34,4 +34,34 @@
 }
 .header-top .content .socials li:hover {
   color: rgb(207, 0, 0);
+}
+@media screen and (max-width: 1200px) {
+  .header-top .content .wellcome p {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-top .content .wellcome p {
+    font-size: 10px;
+  }
+  .header-top .content .socials {
+    display: flex;
+    width: 10%;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-top .content .wellcome p {
+    font-size: 9px;
+  }
+  .header-top .content .socials {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 567px) {
 }

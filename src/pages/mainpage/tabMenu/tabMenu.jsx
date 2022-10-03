@@ -25,7 +25,7 @@ const TabMenu = () => {
                         <ul className="content-title">
                             {data.map(d => (
                                 <li key={d.id + '_id'} onClick={() => handleSelect(d.id)} className={`${d.id === selectedData.id ? 'active' : ''}`}>
-                                    {d.title}
+                                    <h4>{d.title}</h4>
                                     <div className="content-title-icon">{d.icon}</div>
                                 </li>
                             ))}
@@ -33,7 +33,7 @@ const TabMenu = () => {
                         </ul>
 
                         <div className="content-body">
-                            <div>
+                            <div className="content-body-mohtava">
                                 <div className="content-body-title"><h3>{selectedData.title}</h3></div>
                                 <div className="content-body-description">{selectedData.text}</div>
                             </div>

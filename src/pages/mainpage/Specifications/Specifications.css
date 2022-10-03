@@ -2,13 +2,13 @@
   background-color: rgb(20, 20, 20);
   border-top: 2px solid black;
 }
-.content {
-  padding: 10px 0;
+.spContent {
   display: flex;
 }
-.Specifications .content .items-header {
+.Specifications .spContent .items-header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 5px;
   align-items: center;
   width: 100%;
   color: #fff;
@@ -19,12 +19,55 @@
   -ms-transition: all 0.4s e;
   -o-transition: all 0.4s e;
 }
-.Specifications .content .items-header:hover {
+.Specifications .spContent .items-header:hover {
   background-color: rgb(75, 73, 73);
 }
-.Specifications .content .items-header p {
+.Specifications .spContent .items-header p {
   font-size: 13px;
 }
-.Specifications .content .items-header .MyIcons {
+.Specifications .spContent .items-header .MyIcons {
   font-size: 40px;
+}
+/* responsive */
+
+@media screen and (max-width: 1200px) {
+  .Specifications .spContent .items-header p {
+    font-size: 10px;
+  }
+  .Specifications .spContent .items-header .MyIcons {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Specifications .spContent .items-header p {
+    font-size: 8px;
+  }
+  .Specifications .spContent .items-header .MyIcons {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .Specifications .spContent .items-header p {
+    font-size: 8px;
+  }
+  .Specifications .spContent .items-header .MyIcons {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .spContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .Specifications .spContent .items-header {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .Specifications .spContent .items-header {
+    width: 100%;
+  }
 }

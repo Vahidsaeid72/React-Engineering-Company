@@ -1,13 +1,12 @@
 .AboutUs {
   width: 100%;
-  height: 50vh;
 }
 
 .AboutUs-content {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 150px;
+  margin: 90px 0;
 }
 .AboutUs-content .description {
   width: 35%;
@@ -27,6 +26,9 @@
 }
 .AboutUs-content .description .description-btn {
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 .AboutUs-content .description .description-btn button {
   font-size: 15px;
@@ -142,4 +144,76 @@
 }
 .AboutUs-content .myImages .about-team-item .about-slide a:hover {
   color: red;
+}
+
+/* -------------- responsive ----------------- */
+@media screen and (max-width: 1140px) {
+  .AboutUs-content .description .description-title {
+    border-right: 5px solid #faa000;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+  .AboutUs-content .description .description-text {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .AboutUs-content .description .description-title {
+    border-right: 5px solid #faa000;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  .AboutUs-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin: 70px 0;
+  }
+  .AboutUs-content .description {
+    width: 100%;
+    margin: auto;
+  }
+  .AboutUs-content .myImages {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .AboutUs-content .description .description-text {
+    width: 100%;
+  }
+  .AboutUs-content .description .description-btn button {
+    width: 90%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 15px;
+    border: 3px solid #faa000;
+  }
+  .AboutUs-content .description .description-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .AboutUs-content .myImages .about-team-item img {
+    width: 100%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .AboutUs-content {
+    margin: 40px 0 30px 0;
+  }
+}
+@media screen and (max-width: 567px) {
+  .AboutUs-content .myImages .about-team-item img {
+    width: 100%;
+    height: 70%;
+  }
+  .AboutUs-content {
+    margin: 30px 0 20px 0;
+  }
 }

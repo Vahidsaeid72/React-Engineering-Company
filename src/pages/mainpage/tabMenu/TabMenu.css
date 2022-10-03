@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
   margin-top: 40px;
   position: relative;
   display: flex;
@@ -76,10 +76,10 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 100%;
+  width: 90%;
 }
 .TabMenu .content .content-body .content-body-pic img {
-  width: 70%;
+  width: 100%;
   height: 35vh;
 }
 .content-body-title {
@@ -107,10 +107,115 @@
   background-color: #e09004;
 }
 .content-title-icon {
-  font-size: 30px;
+  font-size: 25px;
   position: absolute;
   left: 30px;
   margin: 0;
   padding: 0;
   color: rgb(0, 0, 0);
+}
+
+/* -------------- responsive ----------------- */
+@media screen and (max-width: 1200px) {
+  .content-title-icon {
+    font-size: 23px;
+    left: 25px;
+  }
+  .TabMenu .container .TabMenu-title {
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    border-right: 5px solid #faa000;
+    padding-right: 10px;
+  }
+
+  .content-body-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .content-title-icon {
+    font-size: 20px;
+    left: 20px;
+  }
+
+  .TabMenu .content .content-body .content-body-pic img {
+    width: 100%;
+    height: 25vh;
+  }
+  .content-body-mohtava {
+    width: 80%;
+  }
+  .TabMenu {
+    height: 90vh;
+  }
+  .TabMenu .content .content-title li {
+    padding: 18px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .content-title-icon {
+    font-size: 15px;
+    position: relative;
+    left: -5px;
+    top: 3px;
+  }
+  .TabMenu .container .TabMenu-title {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 13px;
+    border-right: 4px solid #faa000;
+    padding-right: 10px;
+  }
+  .TabMenu {
+    height: 90vh;
+  }
+  .TabMenu .content .content-title li {
+    padding: 16px 0;
+  }
+}
+@media screen and (max-width: 567px) {
+  .TabMenu .container .TabMenu-title {
+    font-size: 10px;
+  }
+  .content-body-title {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .content-body-description {
+    font-size: 11px;
+    margin: 0 5px;
+  }
+  .TabMenu .content .content-title li h4 {
+    font-size: 12px;
+  }
+  .TabMenu .content .content-title li {
+    padding: 14px 0;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .TabMenu .container .TabMenu-title {
+    font-size: 9px;
+  }
+  .content-body-title {
+    font-size: 10px;
+    margin-top: 9px;
+  }
+  .content-body-description {
+    font-size: 10px;
+    margin: 0 4px;
+  }
+  .TabMenu .content .content-title li h4 {
+    font-size: 10px;
+  }
+  .TabMenu .content .content-title li {
+    padding: 12px 0;
+  }
+  .content-title-icon {
+    font-size: 15px;
+    left: -5px;
+  }
 }

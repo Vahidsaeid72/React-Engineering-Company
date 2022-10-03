@@ -6,7 +6,7 @@ const Specifications = () => {
     return (
         <div className="Specifications">
             <div className="container">
-                <div className="content">
+                <div className="spContent">
                     <div className="items-header">
                         <div>
                             <p>شنبه تا پنجشنبه 8 صبح تا 5 بعد از ظهر</p>

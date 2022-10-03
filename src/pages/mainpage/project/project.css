@@ -4,30 +4,7 @@
   justify-content: center;
   align-items: center;
 }
-.project .icon-next {
-  position: absolute;
-  width: 90%;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-.project .icon-next button {
-  font-size: 40px;
-  color: #faa000;
-  cursor: pointer;
-  border: none;
-  background-color: transparent;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}
-.project .icon-next button:hover {
-  color: #bb7600;
-}
+
 .project .roject-content {
   display: flex;
   justify-content: space-between;
@@ -82,4 +59,59 @@
 }
 .project .project-content .header-content-btn button:hover::before {
   height: 100px;
+}
+
+/* -------------- responsive ----------------- */
+@media screen and (max-width: 1200px) {
+  .header-content .header-content-title {
+    padding-right: 25px;
+    font-size: 15px;
+  }
+  .project .project-content .header-content-btn button {
+    font-size: 15px;
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-content .header-content-title {
+    padding-right: 25px;
+    font-size: 13px;
+  }
+  .project .project-content .header-content-btn button {
+    font-size: 13px;
+    width: 400px;
+    padding: 6px;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-content .header-content-title {
+    padding-right: 25px;
+    font-size: 10px;
+  }
+  .project .project-content .header-content-btn button {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .header-content .header-content-title {
+    padding-right: 25px;
+    font-size: 10px;
+  }
+  .project .project-content .header-content-btn button {
+    width: 200px;
+    border: 3px solid #faa000;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header-content .header-content-title {
+    padding-right: 20px;
+    font-size: 10px;
+  }
+  .project .project-content .header-content-btn button {
+    width: 180px;
+    border: 2px solid #faa000;
+  }
 }

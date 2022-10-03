@@ -65,13 +65,6 @@ const Footer = () => {
                                         <h4>مطلب 1</h4>
                                         <h5>مطلب داغ اول</h5>
                                     </div>
-                                    <div className="myItems-image"><img src="./../../../images/project1.jpg" alt="" /></div>
-                                </div>
-                                <div className="myItems">
-                                    <div className="myItems-content">
-                                        <h4>مطلب 1</h4>
-                                        <h5>مطلب داغ اول</h5>
-                                    </div>
                                     <div className="myItems-image"><img src="./../../../images/project2.jpg" alt="" /></div>
                                 </div>
                                 <div className="myItems">

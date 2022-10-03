@@ -37,3 +37,84 @@
 .myConent .myConent-btn button:hover {
   background-color: #df8e03;
 }
+/* -------------- responsive ----------------- */
+@media screen and (max-width: 1200px) {
+  .myConent .myConent-title {
+    font-size: 23px;
+    margin-bottom: 25px;
+  }
+  .myConent .myConent-btn button {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 14px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .myConent .myConent-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+  .myConent .myConent-btn button {
+    width: 140px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 13px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .myConent .myConent-title {
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .myConent .myConent-btn button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 12px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+}
+@media screen and (max-width: 567px) {
+  .myConent .myConent-title {
+    font-size: 12px;
+    margin-bottom: 18px;
+  }
+  .myConent .myConent-btn button {
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 12px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .myConent .myConent-title {
+    font-size: 12px;
+    text-align: center;
+  }
+  .myConent .myConent-btn button {
+    width: 90px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 10px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+  }
+}

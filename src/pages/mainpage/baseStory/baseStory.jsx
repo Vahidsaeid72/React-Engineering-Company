@@ -7,16 +7,16 @@ const BaseStory = () => {
     return (
         <section className='base-story'>
             <div className="container">
-                <div className="content">
+                <div className="base-content">
                     <div className="demo-video">
-                        <video poster={myposter} controls width="600" height="400">
+                        <video poster={myposter} controls >
                             <source src='videos/myVideo.mp4' type="video/mp4" />
                         </video>
                     </div>
                     <div className="services">
                         <div className="services-title">
                             <h2>چه کاری برای شما می کنیم؟</h2>
-                            <h3>لورم ایپسوم متن ساختگی جهت نمایش ظاهر محتوای پیج هیچ معنی خاصی ندارد</h3>
+                            <h4>لورم ایپسوم متن ساختگی جهت نمایش ظاهر محتوای پیج هیچ معنی خاصی ندارد</h4>
                         </div>
                         <div className="services-items">
                             <div className="services-item">
